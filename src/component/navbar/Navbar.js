@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 import BackgroundVideo from "../navbar/bedroom.mp4";
 
 const Navbar = () => {
@@ -32,8 +33,16 @@ const Navbar = () => {
 
         {/* Desktop / Mobile menu */}
         <ul className={isMobile ? "nav-links-mobile" : "nav-links"}>
-          <li>Home</li>
-          <li>About</li>
+          <li>
+            <Link to="/" onClick={() => setIsMobile(false)}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" onClick={() => setIsMobile(false)}>
+              About
+            </Link>
+          </li>
 
           {/* Services Dropdown */}
           <li
@@ -50,7 +59,11 @@ const Navbar = () => {
             </ul>
           </li>
 
-          <li>Contact</li>
+          <li>
+            <Link to="/contact" onClick={() => setIsMobile(false)}>
+              Contact
+            </Link>
+          </li>
         </ul>
 
         {/* Hamburger Menu */}

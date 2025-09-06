@@ -54,7 +54,28 @@ html, body {
   position: relative;
   cursor: pointer;
   padding: 10px 0;
+  text-decoration: none;
 }
+li Link{
+    text-decoration: none;
+}
+/* Remove underline and set text color */
+.nav-links a,
+.nav-links-mobile a,
+.dropdown a {
+  text-decoration: none;  /* removes underline */
+  color: white;           /* makes text white */
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover,
+.nav-links-mobile a:hover,
+.dropdown a:hover {
+  color: #f39c12;  /* orange highlight on hover */
+}
+
 
 /* Dropdown */
 .dropdown {
@@ -79,7 +100,7 @@ html, body {
 
 .dropdown li:hover {
   background-color: var(--Navbar-color);
-  color: var(--Text-color)
+  color: white;
 }
 
 /* Show Dropdown */
