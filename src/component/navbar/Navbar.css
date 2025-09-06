@@ -1,0 +1,184 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* prevents horizontal scroll */
+}
+
+
+:root{
+    --Navbar-color:rgb(90, 9, 9);
+    --Text-color:white;
+    --Background-color-rgb:rgba(90,9,9,0.5);
+    --background-black-rgba:rgba(0,0,0,0.5);
+    --text-black:black;
+}
+/* Navbar Container */
+.navbar {
+  position: absolute; /* stays on video */
+  top: 20;
+  left: 0; /* make sure it starts from left */
+  width: calc(100% - 40px); 
+  margin: 20px 20px 0 20px; /* full screen width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: var(--Background-color-rgb); /* transparent background */
+  color: white;
+  z-index: 10; /* above video */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links li {
+  position: relative;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+/* Dropdown */
+.dropdown {
+ position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    color: black;
+    padding: 10px 0;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    min-width: 180px;
+    z-index: 100;
+    display: none;
+}
+
+.dropdown li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: var(--Navbar-color);
+  color: var(--Text-color)
+}
+
+/* Show Dropdown */
+.dropdown.show {
+  display: block;
+}
+
+/* Mobile Menu Icon */
+.mobile-menu-icon {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    
+  }
+
+  .nav-links-mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    background-color: var(--Background-color-rgb);
+    padding: 20px 0;
+    border-radius: 10px;
+  }
+
+  .nav-links-mobile li {
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+  }
+
+  .services .dropdown {
+    position: static;
+    top: auto;
+    left: auto;
+  }
+
+  .mobile-menu-icon {
+    display: block;
+  }
+}
+
+
+
+/* Make video fill the viewport */
+.video-container {
+  position: relative;
+  height: 100vh; /* full viewport height */
+  width: 100vw;  /* full viewport width */
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 10;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; /* fill screen without distortion */
+  z-index: -1; /* behind everything */
+}
+
+/* Navbar is already fixed on top */
+.navbar {
+  position: absolute; /* or fixed if you want it to stay while scrolling */
+  top: 0;
+  width: 100
+}
+
+/* Optional overlay content */
+.overlay-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 5;
+}
+
+.overlay-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+
+ 
+}
+
+.overlay-content p {
+  font-size: 24px;
+}
+
