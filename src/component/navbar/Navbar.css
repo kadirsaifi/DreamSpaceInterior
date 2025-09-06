@@ -153,6 +153,21 @@ li Link{
     display: block;
   }
 }
+.services {
+
+  align-items: center;
+  gap: 5px; /* space between text and icon */
+}
+
+.services i {
+  font-size: 0.8rem; /* smaller icon */
+  transition: transform 0.3s ease;
+}
+
+/* Rotate arrow when dropdown is open */
+.dropdown.show ~ i {
+  transform: rotate(180deg);
+}
 
 
 
