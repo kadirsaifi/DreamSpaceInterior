@@ -1,10 +1,4 @@
-:root{
-    --Navbar-color:rgb(90, 9, 9);
-    --Text-color:white;
-    --Background-color-rgb:rgba(90,9,9,0.5);
-    --background-black-rgba:rgba(0,0,0,0.5);
-    --text-black:black;
-}
+
 .footer {
   background: var(--Navbar-color);
   color: #fff;

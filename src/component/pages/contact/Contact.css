@@ -1,0 +1,113 @@
+.contact-page {
+  font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.contact-hero {
+  background: url("https://via.placeholder.com/1200x400") center/cover no-repeat;
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+}
+
+.contact-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.contact-hero p {
+  font-size: 1.2rem;
+}
+
+/* Container */
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+/* Form */
+.contact-form {
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #f39c12;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-btn:hover {
+  background: #e67e22;
+}
+
+/* Info */
+.contact-info {
+  padding: 30px;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.contact-info p {
+  margin: 12px 0;
+  font-size: 1rem;
+}
+
+.contact-info i {
+  color: #f39c12;
+  margin-right: 10px;
+}
+
+.contact-social {
+  margin-top: 20px;
+}
+
+.contact-social a {
+  color: #333;
+  font-size: 1.3rem;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+.contact-social a:hover {
+  color: #f39c12;
+}
+
+/* Map */
+.contact-map {
+  margin-top: 50px;
+}

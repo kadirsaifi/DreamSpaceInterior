@@ -66,12 +66,9 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>
-          © {new Date().getFullYear()} Dream Space Interior. All Rights
-          Reserved.
-        </p>
+        <p>© {new Date().getFullYear()} Abdul Kadir. All Rights Reserved.</p>
       </div>
-      <a href="#top" className="back-to-top">
+      <a href="/" className="back-to-top">
         <i className="fa-solid fa-arrow-up"></i>
       </a>
     </footer>

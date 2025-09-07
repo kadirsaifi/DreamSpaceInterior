@@ -27,7 +27,6 @@ const Navbar = () => {
               About
             </Link>
           </li>
-
           {/* Services Dropdown */}
           <li
             className="services"
@@ -37,12 +36,28 @@ const Navbar = () => {
           >
             <i className="fa-solid fa-caret-down"></i> Services
             <ul className={`dropdown ${dropdownOpen ? "show" : ""}`}>
-              <li>Web Development</li>
-              <li>UI/UX Design</li>
-              <li>SEO</li>
+              <li>
+                <Link
+                  style={{ color: "black" }}
+                  to="/kitchen"
+                  onClick={() => setIsMobile(false)}
+                >
+                  Moduler Kitchen
+                </Link>
+              </li>
+              <li>
+                <Link to="/livingroom" onClick={() => setIsMobile(false)}>
+                  living Room
+                </Link>
+              </li>
+              <li>
+                {" "}
+                <Link to="/bedroom" onClick={() => setIsMobile(false)}>
+                  Bedroom
+                </Link>
+              </li>
             </ul>
           </li>
-
           <li>
             <Link to="/contact" onClick={() => setIsMobile(false)}>
               Contact

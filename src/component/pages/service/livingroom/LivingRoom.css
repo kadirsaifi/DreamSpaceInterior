@@ -1,0 +1,91 @@
+.livingroom-page {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.livingroom-hero {
+  background: url("https://via.placeholder.com/1200x500") center/cover no-repeat;
+  text-align: center;
+  color: white;
+  padding: 120px 20px;
+}
+
+.livingroom-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.livingroom-hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* About Section */
+.livingroom-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.livingroom-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #27ae60;
+}
+
+.livingroom-text p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.livingroom-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.livingroom-text li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Image */
+.livingroom-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Gallery */
+.livingroom-gallery {
+  text-align: center;
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.livingroom-gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
