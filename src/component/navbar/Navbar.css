@@ -15,8 +15,8 @@ html, body {
 :root{
     --Navbar-color:rgb(90, 9, 9);
     --Text-color:white;
-    --Background-color-rgb:rgba(90,9,9,0.9);
-    --background-black-rgba:rgba(0,0,0,0.5);
+    --Background-color-rgb:rgba(90, 9, 9, 0.5);
+    --background-black-rgba:rgba(0, 0, 0, 0.096);
     --text-black:black;
 }
 /* Navbar Container */
@@ -24,7 +24,7 @@ html, body {
   position: absolute; /* stays on video */
   top: 20;
   left: 0; /* make sure it starts from left */
-  width: calc(100% - 40px); 
+  width: calc(100% - 50px); 
   margin: 20px 20px 0 20px; /* full screen width */
   display: flex;
   justify-content: space-between;
@@ -100,7 +100,7 @@ li Link{
 
 .dropdown li:hover {
   background-color: var(--Navbar-color);
-  color: white;
+  ;
 }
 
 /* Show Dropdown */
@@ -216,5 +216,8 @@ li Link{
 
 .overlay-content p {
   font-size: 24px;
+}
+.fa-caret-down li{
+    color: red;
 }
 

@@ -46,13 +46,21 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/livingroom" onClick={() => setIsMobile(false)}>
+                <Link
+                  style={{ color: "black" }}
+                  to="/livingroom"
+                  onClick={() => setIsMobile(false)}
+                >
                   living Room
                 </Link>
               </li>
               <li>
                 {" "}
-                <Link to="/bedroom" onClick={() => setIsMobile(false)}>
+                <Link
+                  style={{ color: "black" }}
+                  to="/bedroom"
+                  onClick={() => setIsMobile(false)}
+                >
                   Bedroom
                 </Link>
               </li>
