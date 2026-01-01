@@ -1,8 +1,10 @@
 import React from "react";
 import "./LivingRoom.css";
+import Footer from "../../footer/Footer";
 
 const LivingRoom = () => {
   return (
+    <>
     <section className="livingroom-page">
       {/* Hero Section */}
       <div className="livingroom-hero">
@@ -37,7 +39,7 @@ const LivingRoom = () => {
         {/* Right Image */}
         <div className="livingroom-image">
           <img
-            src="https://via.placeholder.com/500x400"
+            src="https://www.customfurnish.com/blogs/wp-content/uploads/2025/05/Living_-3-3.webp"
             alt="Living Room Design"
           />
         </div>
@@ -47,13 +49,15 @@ const LivingRoom = () => {
       <div className="livingroom-gallery">
         <h2>Our Recent Living Room Projects</h2>
         <div className="gallery-grid">
-          <img src="https://via.placeholder.com/400x300" alt="Living Room 1" />
-          <img src="https://via.placeholder.com/400x300" alt="Living Room 2" />
-          <img src="https://via.placeholder.com/400x300" alt="Living Room 3" />
-          <img src="https://via.placeholder.com/400x300" alt="Living Room 4" />
+          <img src="https://cdn.decorilla.com/images/2400/6439f248-5392-43fa-ab41-68619d334d47/Our-Real-Living-RoombrDesign-Makeovers.jpg?cv=1" alt="Living Room 1" />
+          <img src="https://images.prismic.io/luxdeco-dev/MDE5YThjMjktNTU3OS00ZmZhLTk1ODAtMzI3YTE2ZDQ3ZGE0_how_to_decorate_a_large_living_room_-_large_lounge_room_decorating_ideas_-_luxdeco.com_3.jpg?auto=compress,format&w=1200&q=100" alt="Living Room 2" />
+          <img src="https://cdn.shopify.com/s/files/1/0558/6413/1764/files/BlogThumbnail_Living_Room_Interior_Design_1024x1024.webp?v=1730203967" alt="Living Room 3" />
+          <img src="https://cdn.home-designing.com/wp-content/uploads/2023/08/ribbed-living-room-rug-1024x512.jpg" alt="Living Room 4" />
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
   );
 };
 
