@@ -76,12 +76,12 @@ padding-top: 20px;
 }
 
 .stats-section {
-  background: var(--Background-color-rgb);
   padding: 40px 20px;
   color: #fff;
   text-align: center;
   margin-top: 20px;
   border-radius: 10px;
+  margin-bottom: 60px;
 }
 
 .stats-container {
@@ -217,8 +217,11 @@ padding-top: 20px;
 .features-title {
   font-size: 2rem;
   margin-bottom: 40px;
-  color: #333;
+  color: white;
   font-weight: bold;
+   background: var(--Background-color-rgb);
+   padding: 30px;
+
 }
 
 .features-container {
