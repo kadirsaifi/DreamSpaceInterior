@@ -5,10 +5,10 @@
 
 /* Hero Section */
 .bedroom-hero {
-  background: url("https://via.placeholder.com/1200x500") center/cover no-repeat;
+  background: url("https://i.ytimg.com/vi/52_bXWyiKQ8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCPYpLKMhqMOLUUNEcxa8T6AJTCuA") center/cover no-repeat;
   text-align: center;
   color: white;
-  padding: 120px 20px;
+  padding: 180px 20px;
 }
 
 .bedroom-hero h1 {
