@@ -21,7 +21,7 @@ html, body {
 }
 /* Navbar Container */
 .navbar {
-  position: absolute; /* stays on video */
+  position:relative; /* stays on video */
   top: 20;
   left: 0; /* make sure it starts from left */
   width: calc(100% - 50px); 

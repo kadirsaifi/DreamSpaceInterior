@@ -41,8 +41,8 @@ function Footer() {
         <div className="footer-contact">
           <h3>Contact</h3>
           <p>Email: Dreamspaceinteriordesigner9@gmail.com</p>
-          <p>Phone: +91 8923654224, 91 9917101834</p>
-          <p>Location: Dubai, UAE</p>
+          <p>Phone: +91 8923654224, +91 9917101834</p>
+          <p>Location: Delhi,Uttrakhand</p>
         </div>
 
         {/* Social Media */}

@@ -40,7 +40,7 @@ function Home() {
       title: "Modern Kitchen",
       description: "Stylish modular kitchen designs for your dream home.",
       image:
-        "https://th.bing.com/th/id/R.b115204c2cc97fb5cfc273ce1532c823?rik=G9DGtK1UbH2Xdw&riu=http%3a%2f%2fjonathanlepapillon.j.o.pic.centerblog.net%2fo%2fcf9c4719.jpg&ehk=lSuH5fpHB5zHrpPUDW3ZQ0wdawRaBlB%2fyE8zzMN%2fwfI%3d&risl=&pid=ImgRaw&r=0",
+        "https://www.decorilla.com/online-decorating/wp-content/uploads/2016/02/Online-interior-designer-kitchen.jpg",
       link: "#",
     },
     {
@@ -48,7 +48,7 @@ function Home() {
       title: "Luxury Bedroom",
       description: "Comfortable and elegant bedroom interiors.",
       image:
-        "https://th.bing.com/th/id/R.b115204c2cc97fb5cfc273ce1532c823?rik=G9DGtK1UbH2Xdw&riu=http%3a%2f%2fjonathanlepapillon.j.o.pic.centerblog.net%2fo%2fcf9c4719.jpg&ehk=lSuH5fpHB5zHrpPUDW3ZQ0wdawRaBlB%2fyE8zzMN%2fwfI%3d&risl=&pid=ImgRaw&r=0",
+        "https://evolveartisanal.com/wp-content/uploads/2021/07/1_The-Wooden-Rhapsody-Modern-Bedroom-Interior-Design.jpg",
       link: "#",
     },
     {
@@ -56,7 +56,7 @@ function Home() {
       title: "Living Room",
       description: "Aesthetic and cozy living room setups.",
       image:
-        "https://th.bing.com/th/id/R.b115204c2cc97fb5cfc273ce1532c823?rik=G9DGtK1UbH2Xdw&riu=http%3a%2f%2fjonathanlepapillon.j.o.pic.centerblog.net%2fo%2fcf9c4719.jpg&ehk=lSuH5fpHB5zHrpPUDW3ZQ0wdawRaBlB%2fyE8zzMN%2fwfI%3d&risl=&pid=ImgRaw&r=0",
+        "https://cdn-bnokp.nitrocdn.com/QNoeDwCprhACHQcnEmHgXDhDpbEOlRHH/assets/images/optimized/rev-14b648d/www.decorilla.com/online-decorating/wp-content/uploads/2024/07/Expert-decorating-for-a-small-living-room-by-Decorilla-2048x1365.jpg",
       link: "#",
     },
     {
@@ -64,7 +64,7 @@ function Home() {
       title: "Office Space",
       description: "Professional and creative office interiors.",
       image:
-        "https://th.bing.com/th/id/R.b115204c2cc97fb5cfc273ce1532c823?rik=G9DGtK1UbH2Xdw&riu=http%3a%2f%2fjonathanlepapillon.j.o.pic.centerblog.net%2fo%2fcf9c4719.jpg&ehk=lSuH5fpHB5zHrpPUDW3ZQ0wdawRaBlB%2fyE8zzMN%2fwfI%3d&risl=&pid=ImgRaw&r=0",
+        "https://riverislandinterior.ae/wp-content/uploads/2024/02/Best-Interior-Design-For-offices-in-dubai-1.webp",
       link: "#",
     },
     {
@@ -72,7 +72,7 @@ function Home() {
       title: "Kids Room",
       description: "Playful and vibrant kids’ room interiors.",
       image:
-        "https://th.bing.com/th/id/R.b115204c2cc97fb5cfc273ce1532c823?rik=G9DGtK1UbH2Xdw&riu=http%3a%2f%2fjonathanlepapillon.j.o.pic.centerblog.net%2fo%2fcf9c4719.jpg&ehk=lSuH5fpHB5zHrpPUDW3ZQ0wdawRaBlB%2fyE8zzMN%2fwfI%3d&risl=&pid=ImgRaw&r=0",
+        "https://res.cloudinary.com/dw4e01qx8/f_auto,q_auto/images/nogffazg4dloy8gkpqyr",
       link: "#",
     },
     {
@@ -80,7 +80,7 @@ function Home() {
       title: "Dining Area",
       description: "Modern dining area with elegant designs.",
       image:
-        "https://th.bing.com/th/id/R.b115204c2cc97fb5cfc273ce1532c823?rik=G9DGtK1UbH2Xdw&riu=http%3a%2f%2fjonathanlepapillon.j.o.pic.centerblog.net%2fo%2fcf9c4719.jpg&ehk=lSuH5fpHB5zHrpPUDW3ZQ0wdawRaBlB%2fyE8zzMN%2fwfI%3d&risl=&pid=ImgRaw&r=0",
+        "https://www.luxxu.net/blog/wp-content/uploads/2022/05/dining-room-interior-design-in-neo-classical-style.jpg",
       link: "#",
     },
   ];
